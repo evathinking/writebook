@@ -1,0 +1,8 @@
+html,body{ height:100%; margin:0; padding:0;}
+.mask{height:100%; width:100%; position:fixed; _position:absolute; background-color:#666; top:0; z-index:1000;display: none }
+.opacity{ opacity:0.8; filter: alpha(opacity=80); }
+#response{
+    display: none;
+    position:relative;top:45%;
+    line-height: 50px;width:600px;z-index: 2000;
+    border:6px solid lightblue;margin:0 auto;background: #fff;text-align: center;}
